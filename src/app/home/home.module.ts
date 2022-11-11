@@ -5,6 +5,7 @@ import { HomeRoutingModule } from './home-routing.module';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './home/login/login.component';
 import { SignupComponent } from './home/signup/signup.component';
+import { CommonComponent } from './home/common/common.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { SignupComponent } from './home/signup/signup.component';
     HomeComponent,
     LoginComponent,
     SignupComponent,
+    CommonComponent,
   
   ],
   imports: [
